@@ -22,6 +22,30 @@ npm run dev
 > Preffered tool for development is [VSCode](https://code.visualstudio.com/download)
 
 
+### Technologies
+
+* [NodeJS](https://nodejs.org/)
+* [ThreeJS](https://threejs.org/)
+* [ViteJS](https://vitejs.dev/)
+* [ReactJS](https://reactjs.org/)
+
+### Directory Structure
+
+```bash
+**Root**
+│
+├───src <--- React Application Resides Here
+	├───Main.jsx <-- Rgisters the routes of the React App and Load Dom
+	├───App.jsx <-- Loads Webaverse.js from Root directory
+│
+├─ index.js <-- This starts the vite server that serves the React App
+│
+├─ webaverse.js <-- This is the entry point of the Webaverse
+│
+├─ io-manager.js <-- Controls the input events within the application.
+...
+```
+
 ### Setup ESLint
 
 * Go to your extensions tab and search for `ESLINT`
